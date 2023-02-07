@@ -85,5 +85,8 @@
     "example": "examples",
     "test": "test"
   },
-  "author": ""
+  "author": "",
+  "dependencies": {
+    "pdfjs-dist": "^2.7.570"
+  }
 }
