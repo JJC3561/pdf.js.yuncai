@@ -1,5 +1,5 @@
 {
-  "name": "pdf.js",
+  "name": "pdf.js.yuncai",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
@@ -7,6 +7,7 @@
     "@babel/runtime": "^7.20.13",
     "@javascript-obfuscator/escodegen": "2.3.0",
     "acorn": "^8.8.2",
+    "ajv": "^8.12.0",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^9.1.2",
     "caniuse-lite": "^1.0.30001449",
@@ -71,5 +72,18 @@
     "type": "git",
     "url": "git://github.com/mozilla/pdf.js.git"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "description": "[PDF.js](https://mozilla.github.io/pdf.js/) is a Portable Document Format (PDF) viewer that is built with HTML5.",
+  "bugs": {
+    "url": "https://github.com/mozilla/pdf.js/issues"
+  },
+  "homepage": "https://github.com/mozilla/pdf.js#readme",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "author": ""
 }
